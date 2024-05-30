@@ -1,0 +1,90 @@
+body{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:rgb(45, 156, 246);
+        
+        
+        
+    
+}
+p{
+    color: rgba(255, 255, 255, 0.783);
+    padding-top: 2rem;
+    font-size: small;
+}
+#watch{
+    background-color:#2E133A;
+    /* background-color: black; */
+    border-radius: 15px;
+    width: 25rem;
+    height: 48vh;
+    box-shadow: 3px 4px 8px  #574262;
+    
+}
+
+
+#Stop-Watch{
+    font-size: 3.5rem;
+     font-weight: bolder;
+     padding-top: 1.4;
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color:#ffffffc0 ;
+}
+.hours{
+    margin-left: 5rem;
+}
+.min{
+    margin-left: .5rem;
+}
+.sec{
+    margin-right: 4rem;
+
+}
+#btn{
+    margin-top: 2.3rem;
+}
+.btn1{
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    width: 5.5rem;
+    height: 5.5vh;
+    background-color: #8b7aed;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.btn2{
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    width: 5.5rem;
+    height: 5.5vh;
+    background-color: #f73a7c;
+    color: white;
+    cursor: pointer;
+    margin-right: 1.2rem;
+}
+.btn3{
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    width: 5.5rem;
+    height: 5.5vh;
+    background-color:#574262;
+    color: white;
+    cursor: pointer;
+    /* margin-right: 2rem; */
+}
+
