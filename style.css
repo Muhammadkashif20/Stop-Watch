@@ -34,22 +34,6 @@ p{
      font-weight: bolder;
      padding-top: 1.4;
 }
-.sub{
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-    color:#ffffffc0 ;
-}
-.hours{
-    margin-left: 5rem;
-}
-.min{
-    margin-left: .5rem;
-}
-.sec{
-    margin-right: 4rem;
-
-}
 #btn{
     margin-top: 2.3rem;
 }

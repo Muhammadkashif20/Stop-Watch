@@ -7,7 +7,7 @@ var milisec=0
 var play;
 function Start(){
 
-    var play=setInterval(() => {
+     play=setInterval(() => {
         milisec++
     if(milisec>100){
         sec++
@@ -21,13 +21,14 @@ function Start(){
         hour++
         min=0
     }
-    document.getElementById('Stop-Watch').innerText=`${hour}:${min}:${sec}`
+    document.getElementById('Stop-Watch').innerText=`${hour} : ${min} : ${sec} : ${milisec}`
 }, 10);
 }
 
-function Stop() {
+function pause() {
     clearInterval(play)   
     document.getElementById('Stop')
+
 }
 function Reset() {
     location.reload()
